@@ -1,0 +1,318 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<style type="text/css"><![CDATA[
+  .ct {
+    text-anchor: middle;
+    dominant-baseline: central;
+  }
+]]></style>
+
+<path d="m24,24 m0,48 l1366,0" stroke="black" stroke-width="2" />
+
+<path id="line-jr-hakodate" d="m24,24 m0,64
+m512,0
+m176,0
+m0,16
+m-368,0
+l96,0
+l0,16" stroke="#ed1c23" fill="none" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" stroke-opacity="0.15" />
+<text class="ct" stroke="white" stroke-width="1.5" fill="none" font-size="24"><textPath xlink:href="#line-jr-hakodate" startOffset="40%">函館本線</textPath></text>
+<text class="ct" stroke="none" fill="#ed1c23" font-size="24"><textPath xlink:href="#line-jr-hakodate" startOffset="40%">函館本線</textPath></text>
+<path id="line-jr-hakodate2" d="m24,24 m0,64
+m512,80
+m272,0
+m-32,0
+m-336,0
+l32,0
+l0,-16
+l144,0
+l0,-16
+l112,0
+l0,-16
+l96,0" stroke="#f7931d" fill="none" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" stroke-opacity="0.15" />
+<text class="ct" stroke="white" stroke-width="1.5" fill="none" font-size="24" dy="-12"><textPath xlink:href="#line-jr-hakodate2" startOffset="25%">函館本線</textPath></text>
+<text class="ct" stroke="none" fill="#f7931d" font-size="24" dy="-12"><textPath xlink:href="#line-jr-hakodate2" startOffset="25%">函館本線</textPath></text>
+
+<path id="line-jr-sassho" d="m24,24 m0,64
+m512,0
+m272,0
+m0,16
+m-368,0
+l112,0
+l0,16
+l176,0" stroke="#00a54f" fill="none" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" stroke-opacity="0.15" />
+<!-- 10 -->
+<text class="ct" stroke="none" fill="#00a54f" font-size="24"><textPath xlink:href="#line-jr-sassho" startOffset="20%">学園都市線</textPath></text>
+
+<path id="line-jr-soya2" d="m24,24 m0,64
+m512,0
+l288,0
+l0,32" stroke="#954a35" fill="none" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" stroke-opacity="0.15" />
+<a xlink:href="http://ilovetrainhokkaido.web.fc2.com/bvehokkaido.htm" target="_blank">
+<path id="line-jr-soya" d="m24,24 m0,64
+l512,0" stroke="#954a35" fill="none" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" onmouseout="linetext(false, 'jr-soya');" onmouseover="linetext(true, 'jr-soya');" />
+</a>
+<text class="ct" stroke="white" stroke-width="1.5" fill="none" font-size="24"><textPath xlink:href="#line-jr-soya" startOffset="20%">宗谷本線</textPath></text>
+<text class="ct" stroke="none" fill="#954a35" font-size="24"><textPath xlink:href="#line-jr-soya" startOffset="20%">宗谷本線</textPath></text>
+
+<path id="line-jr-sekihoku" d="m24,24 m0,64
+m800,0
+l448,0
+l0,16
+l-112,0" stroke="#f7931d" fill="none" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" stroke-opacity="0.15" />
+<text class="ct" stroke="white" stroke-width="1.5" fill="none" font-size="24"><textPath xlink:href="#line-jr-sekihoku" startOffset="20%">石北本線</textPath></text>
+<text class="ct" stroke="none" fill="#f7931d" font-size="24"><textPath xlink:href="#line-jr-sekihoku" startOffset="20%">石北本線</textPath></text>
+
+<path id="line-jr-furano" d="m24,24 m0,64
+m800,0
+m0,32
+l256,0
+l0,16" stroke="#aa5ea6" fill="none" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" stroke-opacity="0.15" />
+<text class="ct" stroke="white" stroke-width="1.5" fill="none" font-size="24"><textPath xlink:href="#line-jr-furano" startOffset="20%">富良野線</textPath></text>
+<text class="ct" stroke="none" fill="#aa5ea6" font-size="24"><textPath xlink:href="#line-jr-furano" startOffset="20%">富良野線</textPath></text>
+
+<path id="line-jr-rumoi" d="m24,24 m0,64
+m512,0
+m128,0
+m0,16
+m-80,0
+l176,0
+l0,16" stroke="gray" fill="none" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" stroke-opacity="0.15" />
+<text class="ct" stroke="white" stroke-width="1.5" fill="none" font-size="24" dy="0"><textPath xlink:href="#line-jr-rumoi" startOffset="40%">留萌本線</textPath></text>
+<text class="ct" stroke="none" fill="gray" font-size="24" dy="0"><textPath xlink:href="#line-jr-rumoi" startOffset="40%">留萌本線</textPath></text>
+
+<path id="line-jr-nemuro" d="m24,24 m0,64
+m800,0
+m0,48
+m-96,0
+l352,0
+l0,16
+l-96,0
+l0,16" stroke="#f6989d" fill="none" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" stroke-opacity="0.15" />
+<text class="ct" stroke="white" stroke-width="1.5" fill="none" font-size="24" dy="12"><textPath xlink:href="#line-jr-nemuro" startOffset="15%">根室本線</textPath></text>
+<text class="ct" stroke="none" fill="#f6989d" font-size="24" dy="12"><textPath xlink:href="#line-jr-nemuro" startOffset="15%">根室本線</textPath></text>
+<path id="line-jr-nemuro" d="m24,24 m0,64
+m800,0
+m0,80
+m-192,0
+m352,0
+l0,16
+l112,0" stroke="#8cc63e" fill="none" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" stroke-opacity="0.15" />
+<a xlink:href="http://ilovetrainhokkaido.web.fc2.com/bvehokkaido.htm" target="_blank">
+<path id="line-jr-nemuro2" d="m24,24 m0,64
+m800,0
+m0,80
+m-192,0
+m352,0
+m128,0
+m-16,16
+l128,0
+l0,-16
+l-128,0
+l0,-16
+l16,0" stroke="#8cc63e" fill="none" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" />
+</a>
+<text class="ct" stroke="white" stroke-width="1.5" fill="none" font-size="24" dy="12"><textPath xlink:href="#line-jr-nemuro2" startOffset="20%">根室本線</textPath></text>
+<text class="ct" stroke="none" fill="#8cc63e" font-size="24" dy="12"><textPath xlink:href="#line-jr-nemuro2" startOffset="20%">根室本線</textPath></text>
+
+<path id="line-jr-nemuro3" d="m24,24 m0,64
+m800,48
+m32,0
+m-192,0
+m352,0
+m256,16
+m-160,0
+l128,0
+l0,160" stroke="gray" fill="none" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" stroke-opacity="0.15" />
+<text class="ct" stroke="white" stroke-width="1.5" fill="none" font-size="24"><textPath xlink:href="#line-jr-nemuro3" startOffset="30%">花咲線</textPath></text>
+<text class="ct" stroke="none" fill="gray" font-size="24"><textPath xlink:href="#line-jr-nemuro3" startOffset="30%">花咲線</textPath></text>
+
+<a xlink:href="http://ilovetrainhokkaido.web.fc2.com/bvehokkaido.htm" target="_blank">
+<path id="line-jr-semmo" d="m24,24 m0,64
+m1072,64
+l16,0
+l0,-16
+l144,0
+l0,-16
+l-160,0
+l0,-16
+l64,0" stroke="#ef59a1" fill="none" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" />
+<text class="ct" stroke="white" stroke-width="1.5" fill="none" font-size="24" dy="-24"><textPath xlink:href="#line-jr-semmo" startOffset="30%">釧網本線</textPath></text>
+<text class="ct" stroke="none" fill="#ef59a1" font-size="24" dy="-24"><textPath xlink:href="#line-jr-semmo" startOffset="30%">釧網本線</textPath></text>
+</a>
+
+<path id="line-jr-sekisho" d="m24,24 m0,64
+m800,0
+m0,80
+m-96,0
+m352,0
+m-96,0
+m-288,0
+l288,0" stroke="#8cc63e" fill="none" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" stroke-opacity="0.15" />
+<text class="ct" stroke="none" fill="#8cc63e" font-size="24" dy="32"><textPath xlink:href="#line-jr-sekisho" startOffset="50%">石勝線</textPath></text>
+<path id="line-jr-sekisho" d="m24,24 m0,64
+m800,0
+m0,48
+m-96,0
+m352,0
+m0,16
+m-96,0
+m0,16
+m-48,0
+l0,-16
+l-64,0" stroke="#8cc63e" fill="none" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" stroke-opacity="0.15" />
+
+<path id="line-jr-chitose" d="m24,24 m0,64
+m800,80
+m-96,0
+m352,0
+m-96,0
+m-288,0
+m-256,0
+m32,0
+l224,0
+l16,16
+l0,48" stroke="#0072bc" fill="none" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" stroke-opacity="0.15" />
+<text class="ct" stroke="none" fill="#0072bc" font-size="24" dy="32"><textPath xlink:href="#line-jr-chitose" startOffset="10%">千歳線</textPath></text>
+<path id="line-jr-chitose" d="m24,24 m0,64
+m672,80
+l0,16
+l-16,16" stroke="#00b2eb" fill="none" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" stroke-opacity="0.15" />
+
+<path id="line-jr-muroran" d="m24,24 m0,64
+m512,0
+m288,0
+m0,64
+m-208,0
+l112,0
+l0,64
+l-16,0" stroke="gray" fill="none" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" stroke-opacity="0.15" />
+<text class="ct" stroke="none" fill="gray" font-size="24" dy="8"><textPath xlink:href="#line-jr-muroran" startOffset="10%">室蘭本線</textPath></text>
+
+<path id="line-jr-hidaka" d="m24,24 m0,64
+m688,144
+l464,0" stroke="gray" fill="none" stroke-width="12" stroke-linecap="square" stroke-linejoin="round" stroke-opacity="0.15" />
+<text class="ct" stroke="none" fill="gray" font-size="24" dy="32"><textPath xlink:href="#line-jr-hidaka" startOffset="20%">日高本線</textPath></text>
+
+<path id="line-st-namboku" d="m24,24 m0,64
+m256,48
+l144,0
+l16,-16
+l96,0" stroke="#008000" fill="none" stroke-width="6" stroke-linecap="square" stroke-linejoin="round" stroke-opacity="0.15" />
+<text class="ct" stroke="none" fill="#008000" font-size="16" dy="12"><textPath xlink:href="#line-st-namboku">市営地下鉄南北線</textPath></text>
+
+<path id="line-st-tozai" d="m24,24 m0,64
+m288,32
+l112,0
+l0,176" stroke="#ffa500" fill="none" stroke-width="6" stroke-linecap="square" stroke-linejoin="round" stroke-opacity="0.15" />
+<text class="ct" stroke="none" fill="#ffa500" font-size="16" dy="12"><textPath xlink:href="#line-st-tozai" startOffset="40%">市営地下鉄東西線</textPath></text>
+
+<path id="line-st-toho" d="m24,24 m0,64
+m240,64
+l144,0
+l32,-32
+l16,16
+l80,0" stroke="#0080ff" fill="none" stroke-width="6" stroke-linecap="square" stroke-linejoin="round" stroke-opacity="0.15" />
+<text class="ct" stroke="none" fill="#0080ff" font-size="16" dy="12"><textPath xlink:href="#line-st-toho">市営地下鉄東豊線</textPath></text>
+
+<circle cx="440" cy="168" r="5" stroke="none" fill="white" />
+<text x="440" y="168" font-size="16" dy="-8" text-anchor="middle" dominant-baseline="central">札幌</text>
+<circle cx="472" cy="168" r="3" stroke="none" fill="white" />
+<text x="472" y="168" font-size="16" dx="8" dy="-8" text-anchor="middle" dominant-baseline="central">白石</text>
+<circle cx="504" cy="168" r="5" stroke="none" fill="white" />
+<text x="504" y="168" font-size="16" dx="24" dy="-8" text-anchor="middle" dominant-baseline="central">新札幌</text>
+<circle cx="616" cy="152" r="5" stroke="none" fill="white" />
+<text x="616" y="152" font-size="16" dx="-8" dy="-8" text-anchor="middle" dominant-baseline="central">岩見沢</text>
+<circle cx="728" cy="136" r="5" stroke="none" fill="white" />
+<text x="728" y="136" font-size="16" dy="-8" text-anchor="middle" dominant-baseline="central">滝川</text>
+<circle cx="760" cy="120" r="5" stroke="none" fill="white" />
+<text x="760" y="120" font-size="16" dy="-8" text-anchor="middle" dominant-baseline="central">深川</text>
+<circle cx="824" cy="120" r="5" stroke="none" fill="white" />
+<text x="824" y="120" font-size="16" dy="-8" text-anchor="middle" dominant-baseline="central">旭川</text>
+<circle cx="824" cy="88" r="3" stroke="none" fill="white" />
+<text x="824" y="88" font-size="16" dy="-8" text-anchor="middle" dominant-baseline="central">新旭川</text>
+<circle cx="536" cy="88" r="5" stroke="none" fill="white" />
+<text x="536" y="88" font-size="16" dy="-8" text-anchor="middle" dominant-baseline="central">名寄</text>
+<!--
+<circle cx="520" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="504" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="488" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="472" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="456" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="440" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="424" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="408" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="392" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="376" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="360" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="344" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="328" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="312" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="296" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="280" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="264" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="248" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="232" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="216" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="200" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="184" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="168" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="152" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="136" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="120" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="104" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="88" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="72" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="56" cy="88" r="3" stroke="none" fill="white" />
+<circle cx="40" cy="88" r="3" stroke="none" fill="white" />
+-->
+<circle cx="24" cy="88" r="5" stroke="none" fill="white" />
+<text x="24" y="88" font-size="16" dy="-8" text-anchor="middle" dominant-baseline="central">稚内</text>
+<circle cx="1032" cy="88" r="5" stroke="none" fill="white" />
+<text x="1032" y="88" font-size="16" dy="-8" text-anchor="middle" dominant-baseline="central">上川</text>
+<circle cx="1096" cy="88" r="5" stroke="none" fill="white" />
+<text x="1096" y="88" font-size="16" dy="-8" text-anchor="middle" dominant-baseline="central">遠軽</text>
+<circle cx="1240" cy="88" r="5" stroke="none" fill="white" />
+<text x="1240" y="88" font-size="16" dy="-8" text-anchor="middle" dominant-baseline="central">北見</text>
+<circle cx="1160" cy="104" r="5" stroke="none" fill="white" />
+<text x="1160" y="104" font-size="16" dy="-8" text-anchor="middle" dominant-baseline="central">網走</text>
+<circle cx="952" cy="120" r="5" stroke="none" fill="white" />
+<text x="952" y="120" font-size="16" dy="8" text-anchor="middle" dominant-baseline="central">美瑛</text>
+<circle cx="1016" cy="120" r="5" stroke="none" fill="white" />
+<text x="1016" y="120" font-size="16" dx="-24" dy="-8" text-anchor="middle" dominant-baseline="central">（臨）ラベンダー畑</text>
+<circle cx="1080" cy="136" r="5" stroke="none" fill="white" />
+<text x="1080" y="136" font-size="16" dx="-24" dy="-8" text-anchor="middle" dominant-baseline="central">富良野</text>
+<circle cx="584" cy="104" r="3" stroke="none" fill="white" />
+<text x="584" y="104" font-size="16" dy="-8" text-anchor="middle" dominant-baseline="central">留萌</text>
+<circle cx="984" cy="168" r="5" stroke="none" fill="white" />
+<text x="984" y="168" font-size="16" dy="-8" text-anchor="middle" dominant-baseline="central">新得</text>
+<circle cx="1096" cy="184" r="5" stroke="none" fill="white" />
+<text x="1096" y="184" font-size="16" dy="-8" text-anchor="middle" dominant-baseline="central">帯広</text>
+<circle cx="1176" cy="184" r="5" stroke="none" fill="white" />
+<text x="1176" y="184" font-size="16" dy="-8" text-anchor="middle" dominant-baseline="central">池田</text>
+<circle cx="1096" cy="152" r="5" stroke="none" fill="white" />
+<text x="1096" y="152" font-size="16" text-anchor="middle" dominant-baseline="central">釧路</text>
+<circle cx="1112" cy="152" r="3" stroke="none" fill="white" />
+<text x="1112" y="152" font-size="16" dx="24" dy="8" text-anchor="middle" dominant-baseline="central">東釧路</text>
+<circle cx="1240" cy="312" r="3" stroke="none" fill="white" />
+<text x="1240" y="312" font-size="16" dy="-8" text-anchor="middle" dominant-baseline="central">根室</text>
+<circle cx="1128" cy="136" r="5" stroke="none" fill="white" />
+<text x="1128" y="136" font-size="16" dx="24" dy="8" text-anchor="middle" dominant-baseline="central">釧路湿原</text>
+<circle cx="1256" cy="136" r="5" stroke="none" fill="white" />
+<text x="1256" y="136" font-size="16" dy="-8" text-anchor="middle" dominant-baseline="central">摩周</text>
+<circle cx="1144" cy="120" r="5" stroke="none" fill="white" />
+<text x="1144" y="120" font-size="16" dx="32" dy="8" text-anchor="middle" dominant-baseline="central">知床斜里</text>
+<circle cx="1096" cy="120" r="5" stroke="none" fill="white" />
+<text x="1096" y="120" font-size="16" dx="16" dy="-8" text-anchor="middle" dominant-baseline="central">（臨）原生花園</text>
+
+<circle cx="968" cy="168" r="5" stroke="none" fill="white" />
+<text x="968" y="168" font-size="16" dy="8" text-anchor="middle" dominant-baseline="central">トマム</text>
+
+<text x="4" y="28" font-size="32" text-anchor="start" dominant-baseline="central">BVE5路線データ図</text>
+<a xlink:href="../index.html" target="_blank">
+<text x="356" y="20" font-size="20" text-anchor="start" dominant-baseline="central">トップへ戻る</text>
+</a>
+<text x="420" y="48" font-size="16" text-anchor="start" dominant-baseline="central">色が濃い区間をクリックすると路線データの配布ページに飛びます。</text>
+
+<text x="50%" y="50%" font-size="128" text-anchor="middle" dominant-baseline="central">制作中</text>
+</svg>

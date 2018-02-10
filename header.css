@@ -1,9 +1,11 @@
 body{
-margin:0;
+  padding-bottom: 2px;
+  margin:0;
+  border-bottom: solid 2px #BFBFBF;
 }
 font{
-font-family:'メイリオ',Meiryo;
+  font-family:'メイリオ',Meiryo;
 }
 img{
-vertical-align: bottom;
+  vertical-align: bottom;
 }

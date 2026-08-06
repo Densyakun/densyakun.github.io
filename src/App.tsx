@@ -47,6 +47,7 @@ function App() {
 
 function LatestNews() {
   const news = [
+    ['2026/08/06', '日本の地図パズルゲーム japan geopuzzle pro を追加'],
     ['2025/05/21', 'HPのデザイン変更、自作のWebアプリを追加'],
     ['2021/09/16', '鉄道整備計画を追加'],
     ['2020/05/25', 'Bve5路線データを2つ公開'],
@@ -113,10 +114,10 @@ function WebApps() {
     </Stack>
 
     <Grid container spacing={2}>
-      <Grid>
-        <Card sx={{ maxWidth: 345 }}>
-          <CardActionArea href="https://memo-relation.vercel.app/" target="_blank">
-            <CardContent>
+      <Grid sx={{ display: 'flex' }}>
+        <Card sx={{ maxWidth: 345, width: '100%', height: '100%', display: 'flex', flexDirection: 'column' }}>
+          <CardActionArea href="https://memo-relation.vercel.app/" target="_blank" sx={{ flexGrow: 1 }}>
+            <CardContent sx={{ flexGrow: 1 }}>
               <Typography gutterBottom variant="h5" component="div">
                 memo-relation
                 <NewChip />
@@ -133,10 +134,10 @@ function WebApps() {
           </CardActions>
         </Card>
       </Grid>
-      <Grid>
-        <Card sx={{ maxWidth: 345 }}>
-          <CardActionArea href="https://degree-name-and-lyrics.vercel.app/" target="_blank">
-            <CardContent>
+      <Grid sx={{ display: 'flex' }}>
+        <Card sx={{ maxWidth: 345, width: '100%', height: '100%', display: 'flex', flexDirection: 'column' }}>
+          <CardActionArea href="https://degree-name-and-lyrics.vercel.app/" target="_blank" sx={{ flexGrow: 1 }}>
+            <CardContent sx={{ flexGrow: 1 }}>
               <Typography gutterBottom variant="h5" component="div">
                 Transposed chords
                 <NewChip />
@@ -182,23 +183,41 @@ function Games() {
       <h2>自作ゲーム</h2>
     </Stack>
 
-    <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea href="http://blueprint.wiki.fc2.com/">
-        <CardMedia
-          component="img"
-          height="140"
-          image="688a20e758611a768f123c2cb8413338.png"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            BluePrint
-          </Typography>
-          <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-            2015年公開。唯一完成したゲーム作品。木を切って道具を作り、家をたてるサンドボックスゲーム。バグあり
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    </Card>
+    <Grid container spacing={2}>
+      <Grid sx={{ display: 'flex' }}>
+        <Card sx={{ maxWidth: 345, width: '100%', height: '100%', display: 'flex', flexDirection: 'column' }}>
+          <CardActionArea href="https://japan-geopuzzle-pro.vercel.app/" sx={{ flexGrow: 1 }}>
+            <CardContent sx={{ flexGrow: 1 }}>
+              <Typography gutterBottom variant="h5" component="div">
+                japan geopuzzle pro
+              </Typography>
+              <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                市区町村単位で地名の場所を当てはめたり、ジグソーパズルを完成させるゲーム
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+      </Grid>
+      <Grid sx={{ display: 'flex' }}>
+        <Card sx={{ maxWidth: 345, width: '100%', height: '100%', display: 'flex', flexDirection: 'column' }}>
+          <CardActionArea href="http://blueprint.wiki.fc2.com/" sx={{ flexGrow: 1 }}>
+            <CardMedia
+              component="img"
+              height="140"
+              image="688a20e758611a768f123c2cb8413338.png"
+            />
+            <CardContent sx={{ flexGrow: 1 }}>
+              <Typography gutterBottom variant="h5" component="div">
+                BluePrint
+              </Typography>
+              <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                2015年公開。唯一完成したゲーム作品。木を切って道具を作り、家をたてるサンドボックスゲーム。バグあり
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+      </Grid>
+    </Grid>
   </Box>;
 }
 
@@ -232,14 +251,18 @@ function Bvets() {
     <Paper elevation={3} sx={{ padding: 2 }}>
       <h3>BVE5 自作 路線データ</h3>
       <Grid container spacing={2}>
-        <Grid>
+        <Grid sx={{ display: 'flex' }}>
           <Card sx={{
             maxWidth: 345,
+            width: '100%',
+            height: '100%',
+            display: 'flex',
+            flexDirection: 'column',
             border: "5px solid",
             borderImage: "linear-gradient(#C8006B 50%, #00377E 50%) 1",
           }}>
-            <CardActionArea href="https://drive.google.com/open?id=1M6zdSz5kKkuAdNgGVcjtVBfD2P_i-zYe" target="_blank">
-              <CardContent>
+            <CardActionArea href="https://drive.google.com/open?id=1M6zdSz5kKkuAdNgGVcjtVBfD2P_i-zYe" target="_blank" sx={{ flexGrow: 1 }}>
+              <CardContent sx={{ flexGrow: 1 }}>
                 <Typography gutterBottom variant="h5" component="div">
                   京王相模原線 準特急 新宿→橋本
                 </Typography>
@@ -250,14 +273,18 @@ function Bvets() {
             </CardActionArea>
           </Card>
         </Grid>
-        <Grid>
+        <Grid sx={{ display: 'flex' }}>
           <Card sx={{
             maxWidth: 345,
+            width: '100%',
+            height: '100%',
+            display: 'flex',
+            flexDirection: 'column',
             border: "5px solid",
             borderImage: "linear-gradient(0.375turn, #f20b49 25%, #0f51af 25%, #0f51af 50%, #f20b49 50%, #f20b49 75%, #0f51af 75%) 1",
           }}>
-            <CardActionArea href="https://drive.google.com/open?id=1L4HCMTcXFHWpANtyg1sieLAb98I9AJlE" target="_blank">
-              <CardContent>
+            <CardActionArea href="https://drive.google.com/open?id=1L4HCMTcXFHWpANtyg1sieLAb98I9AJlE" target="_blank" sx={{ flexGrow: 1 }}>
+              <CardContent sx={{ flexGrow: 1 }}>
                 <Typography gutterBottom variant="h5" component="div">
                   つくばエクスプレス 通快 つくば→秋葉原
                 </Typography>

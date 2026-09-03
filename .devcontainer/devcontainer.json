@@ -1,0 +1,14 @@
+{
+  "name": "Kozmik Cloud Deck - OpenCode",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "forwardPorts": [
+    4096
+  ],
+  "portsAttributes": {
+    "4096": {
+      "label": "opencode",
+      "onAutoForward": "notify"
+    }
+  },
+  "postStartCommand": "export PATH=\"$HOME/.opencode/bin:$PATH\"; if [ ! -x \"$HOME/.opencode/bin/opencode\" ]; then (curl -fsSL https://opencode.ai/install | bash >/tmp/opencode-install.log 2>&1 || true); fi; if [ -x \"$HOME/.opencode/bin/opencode\" ]; then { while true; do code=$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:4096/ || echo 000); if [ -z \"$code\" ] || [ \"$code\" = '000' ]; then nohup \"$HOME/.opencode/bin/opencode\" web --hostname 0.0.0.0 --port 4096 >>/tmp/opencode.log 2>&1 & fi; sleep 15; done; } & fi"
+}

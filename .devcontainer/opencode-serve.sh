@@ -25,11 +25,13 @@ if [ ! -x "$HOME/.opencode/bin/opencode" ]; then
   exit 1
 fi
 
-# ポート4096で待受中でなければ起動する（Basic認証設定時は401も稼働扱い）
+# ポート4096で待受中（HTTP 200/401 応答）でなければ起動する
+# 注意: curl -w %{http_code} は接続失敗時も 000 を出力しつつ終了コード非ゼロになるため、
+#       '|| echo' を足すと 000000 に化けて判定が壊れる。--noproxy でプロキシ経由のハングも回避
 while true; do
-  code=$(curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:4096/ || echo 000)
-  if [ -z "$code" ] || [ "$code" = "000" ]; then
-    echo "$(date -Is) starting opencode web" >>/tmp/opencode-serve.log
+  code=$(curl -s --noproxy '*' -o /dev/null -w '%{http_code}' --max-time 5 http://127.0.0.1:4096/ 2>/dev/null)
+  if [ "$code" != "200" ] && [ "$code" != "401" ]; then
+    echo "$(date -Is) starting opencode web (code=${code:-none})" >>/tmp/opencode-serve.log
     nohup "$HOME/.opencode/bin/opencode" web --hostname 0.0.0.0 --port 4096 >>/tmp/opencode.log 2>&1 &
     disown
   fi

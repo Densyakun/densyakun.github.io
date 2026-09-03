@@ -9,6 +9,9 @@ cd "$SCRIPT_DIR/.." || exit 1
 
 export PATH="$HOME/.opencode/bin:$PATH"
 
+# xdg-open（ブラウザ自動起動）を抑制。サーバー起動のみ行う
+export BROWSER=true
+
 # 認証情報（devcontainer.env が効かない環境向けにここで保証。ポート公開時は必ず変更すること）
 export OPENCODE_SERVER_USERNAME="${OPENCODE_SERVER_USERNAME:-opencode}"
 export OPENCODE_SERVER_PASSWORD="${OPENCODE_SERVER_PASSWORD:-c2691c2fefc33ee30e117c27}"

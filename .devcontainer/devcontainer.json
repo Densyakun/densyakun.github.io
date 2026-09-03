@@ -15,5 +15,5 @@
       "visibility": "public"
     }
   },
-  "postStartCommand": "nohup setsid bash \"${containerWorkspaceFolder}/.devcontainer/opencode-serve.sh\" >/tmp/opencode-serve.log 2>&1 < /dev/null &"
+  "postStartCommand": "bash \"${containerWorkspaceFolder}/.devcontainer/oc-boot-wrapper.sh\""
 }

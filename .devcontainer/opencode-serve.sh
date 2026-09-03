@@ -20,6 +20,14 @@ INSTALL_DIR="$HOME/.opencode/bin"
 mkdir -p "$INSTALL_DIR"
 echo "resolved HOME=$HOME INSTALL_DIR=$INSTALL_DIR" >>"$LOG" 2>&1
 
+# "$HOME/kozmik-cloud-dashboard" はコンテナ再作成(rebuild)で消えるため、
+# opencode のフォルダ履歴が参照するパスとしてリポジトリを指す symlink を自動作成する。
+# 既存の実体（ディレクトリ/有効 symlink）がある場合は尊重し、壊れた symlink のみ張り直す。
+if [ -d /workspaces/densyakun.github.io ] && { [ ! -e "$HOME/kozmik-cloud-dashboard" ] || [ -L "$HOME/kozmik-cloud-dashboard" ]; }; then
+  ln -sfn /workspaces/densyakun.github.io "$HOME/kozmik-cloud-dashboard"
+  echo "$(date -Is) symlink ensured: $HOME/kozmik-cloud-dashboard -> /workspaces/densyakun.github.io" >>"$LOG" 2>&1
+fi
+
 # ブラウザ自動起動 (xdg-open) を抑制し、サーバー起動のみ行う
 export BROWSER=true
 
